@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WhatIs</string>
+
+    <string name="choose_picture">Choose a picture or take a new one!</string>
+</resources>
