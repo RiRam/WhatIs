@@ -20,10 +20,12 @@
         android:text="@string/choose_picture" />
 
     <LinearLayout
+        android:id="@+id/buttonLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/head"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:orientation="horizontal">
 
         <ImageButton
@@ -42,5 +44,30 @@
             android:background="@drawable/gallery"
             android:clickable="true" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttonLayout" />
+
+    <TextView
+        android:id="@+id/chooseItemsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/picture"
+        android:layout_toLeftOf="@id/buttonLayout"
+        android:layout_toStartOf="@+id/buttonLayout"
+        android:text=""
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tag_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/picture" />
 
 </RelativeLayout>

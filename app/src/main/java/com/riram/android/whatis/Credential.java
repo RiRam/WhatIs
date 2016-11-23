@@ -5,6 +5,6 @@ package com.riram.android.whatis;
  */
 
 public class Credential {
-    static final String CLIENT_ID = "";
-    static final String CLIENT_SECRET = "";
+    static final String CLIENT_ID = "{your-clientid-here}";
+    static final String CLIENT_SECRET = "{your-clientsecret-here}";
 }
